@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.1-web/css/all.min.css" rel="stylesheet">
+	
 
 
 
@@ -30,9 +32,9 @@
   </head>
   <body>
     
-	  <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	<nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container-fluid px-md-5">
-			<img src="images/hoj logo.jpg" width="120" height="70" class="d-inline-block align-top" alt="Your Logo">
+			<img src="images/hoj_back.png" width="120" height="70" class="d-inline-block align-top" alt="Your Logo">
 
 	      <a class="navbar-brand" href="index.html">House of Justice </a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,8 +45,19 @@
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-			  <li class="nav-item"><a href="shop.html" class="nav-link">Shop</a></li>
-	          <li class="nav-item"><a href="practice-areas.html" class="nav-link">Departments</a></li>
+			  <li class="nav-item"><a href="store.html" class="nav-link">Store</a></li>
+	          <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Blog
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li><a class="dropdown-item" href="#">Sub Menu 1</a></li>
+					<li><a class="dropdown-item" href="#">Sub Menu 2</a></li>
+					<li><a class="dropdown-item" href="#">Sub Menu 3</a></li>
+					<li><a class="dropdown-item" href="#">Sub Menu 4</a></li>
+				</ul>
+			</li>
+			
 	          <li class="nav-item"><a href="case.html" class="nav-link">Programs</a></li>
 	          <li class="nav-item"><a href="attorneys.html" class="nav-link">HOJ Media</a></li>
 	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
@@ -55,7 +68,7 @@
 	  </nav>
     <!-- END nav -->
     
-    <div class="hero-wrap js-fullheight" style="background-image: url('images/back1.jpg');" data-stellar-background-ratio="0.5">
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/hoj_back.png');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container-fluid px-md-5">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
@@ -143,42 +156,29 @@
         </div>
         <div class="row no-gutters d-flex justify-content-center">
         	<div class="col-md-3 text-center">
-        		<div class="practice-area border-b no-border-l ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-family"></span>
+        		<div class="practice-area border-b ftco-animate">
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-users" aria-hidden="true"></span>
         			</div>
         			<h3><a href="#">Family Law</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
         		</div>
         	</div>
-		
-			
-        	<!-- <div class="col-md-3 text-center">
+        	<div class="col-md-3 text-center">
         		<div class="practice-area border-b ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="fa fa-globe"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-globe" aria-hidden="true"></span>
         			</div>
         			<h3><a href="#">International Law</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
         		</div>
-        	</div> -->
-			<div class="col-md-3 text-center">
-				<div class="practice-area border-b no-border-l ftco-animate">
-					<div class="icon d-flex justify-content-center align-items-center">
-						<!-- Embedding SVG directly -->
-						<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-							<use xlink:href="svg/globe.svg#icon"></use>
-						</svg>
-					</div>
-					<h3><a href="#">Family Law</a></h3>
-					<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-				</div>
-			</div>
+        	</div>
+			
 			
         	<div class="col-md-3 text-center">
         		<div class="practice-area border-b ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-shield"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-piggy-bank"></span>
         			</div>
         			<h3><a href="#">Banking & Insurance Law</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -186,8 +186,8 @@
         	</div>
         	<div class="col-md-3 text-center">
         		<div class="practice-area border-b ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-handcuffs"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-handcuffs"></i></span>
         			</div>
         			<h3><a href="#">Criminal Law & Prevention</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -204,8 +204,8 @@
         	</div>
         	<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-employee"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-brain"></span>
         			</div>
         			<h3><a href="#">Intellectual Property</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -213,8 +213,8 @@
         	</div>
         	<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-fire"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-gavel"></span>
         			</div>
         			<h3><a href="#">Human Rights</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -222,8 +222,8 @@
         	</div>
         	<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-money"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-stethoscope"></span>
         			</div>
         			<h3><a href="#">Medical Law</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -231,8 +231,8 @@
         	</div>
 			<div class="col-md-3 text-center">
         		<div class="practice-area no-border-l ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-house"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-building"></span>
         			</div>
         			<h3><a href="#">Company Law</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -240,17 +240,17 @@
         	</div>
         	<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-employee"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-camcorder"></span>
         			</div>
-        			<h3><a href="#">Media & Communications Law</a></h3>
+        			<h3><a href="#">Media & Comm. Law</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
         		</div>
         	</div>
         	<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-fire"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-buildings"></span>
         			</div>
         			<h3><a href="#">Company Incorporation</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -258,8 +258,8 @@
         	</div>
         	<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-money"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-hammer-brush"></span>
         			</div>
         			<h3><a href="#">Labour Law</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -267,8 +267,8 @@
         	</div>
 			<div class="col-md-3 text-center">
         		<div class="practice-area no-border-l ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-house"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-books"></span>
         			</div>
         			<h3><a href="#">Class Action</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -276,8 +276,8 @@
         	</div>
         	<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-employee"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-at "></span>
         			</div>
         			<h3><a href="#">Commercial Litigation </a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -285,8 +285,8 @@
         	</div>
         	<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-fire"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-people-carry-box"></span>
         			</div>
         			<h3><a href="#">Alternative Dispute Resolution </a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -294,8 +294,8 @@
         	</div>
         	<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-money"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-people"></span>
         			</div>
         			<h3><a href="#">Civil Law</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -303,8 +303,8 @@
         	</div>
 			<div class="col-md-3 text-center">
         		<div class="practice-area no-border-l ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-house"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-money-check-dollar"></span>
         			</div>
         			<h3><a href="#">Tax Law</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -312,8 +312,8 @@
         	</div>
         	<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-employee"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-bars-progress"></span>
         			</div>
         			<h3><a href="#">Probate Law</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -321,8 +321,8 @@
         	</div>
         	<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-fire"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-city"></span>
         			</div>
         			<h3><a href="#">Environmental Law</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -330,8 +330,8 @@
         	</div>
         	<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-money"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-landmark"></span>
         			</div>
         			<h3><a href="#">Land & Resources Law</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -339,8 +339,8 @@
         	</div>
 			<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-money"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-shield"></span>
         			</div>
         			<h3><a href="#">Securities Litigation & Professional Liability</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -348,8 +348,8 @@
         	</div>
 			<div class="col-md-3 text-center">
         		<div class="practice-area ftco-animate">
-        			<div class="icon d-flex justify-content-center align-items-center">
-        				<span class="flaticon-money"></span>
+        			<div class="icon icon-padding d-flex justify-content-center align-items-center">
+        				<span class="fa-thin fa-wheat"></span>
         			</div>
         			<h3><a href="#">Consumer Protection</a></h3>
         			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
@@ -886,6 +886,7 @@
 
 
   <script src="js/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/70322dbc84.js" crossorigin="anonymous"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

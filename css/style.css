@@ -76,6 +76,8 @@ p {
   margin-top: 0;
   margin-bottom: 1rem; }
 
+  
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -1981,6 +1983,20 @@ textarea.form-control {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
   box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }
 
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  }
+
 .form-inline {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2056,6 +2072,10 @@ textarea.form-control {
       justify-content: center; }
     .form-inline .custom-control-label {
       margin-bottom: 0; } }
+
+.icon-padding {
+        padding: 25px;
+}
 
 .btn {
   display: inline-block;
@@ -8589,6 +8609,35 @@ h1, h2, h3, h4, h5,
   .case:hover .text {
     opacity: 1; }
 
+  /* Nav dropdown */
+  .navbar-nav.ml-auto .nav-link {
+      padding: 10px 15px;
+      font-size: 16px;
+  }
+
+  .dropdown-menu {
+      margin-top: 0;
+      border-radius: 0;
+      box-shadow: none;
+      background-color: #343a40;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+  }
+  .dropdown-menu.show {
+    max-height: 200px; /* Adjust height as needed */
+}
+  .dropdown-item {
+      color: #343a40;
+      transition: background-color 0.3s ease;
+
+  }
+
+  .dropdown-item:hover {
+      background-color: #ffffff;
+      color: #dc3545;
+  }
+
 .ftco-consultation {
   background-position: top center !important;
   position: relative; }
@@ -8697,11 +8746,11 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 4em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 4em 0; } }
 
 .ftco-bg-dark {
   background: #3c312e; }
@@ -9699,3 +9748,4 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+

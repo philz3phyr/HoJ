@@ -25,20 +25,34 @@
   </head>
   <body>
     
-	  <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	<nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container-fluid px-md-5">
-	      <a class="navbar-brand" href="index.html">Judge <span>A Law Firm</span></a>
+			<img src="images/hoj_back.png" width="120" height="70" class="d-inline-block align-top" alt="Your Logo">
+
+	      <a class="navbar-brand" href="index.html">House of Justice </a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
+	        <span style=color:#ffc107 class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
 	          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-	          <li class="nav-item active"><a href="practice-areas.html" class="nav-link">Practice Areas</a></li>
-	          <li class="nav-item"><a href="case.html" class="nav-link">Case Studies</a></li>
-	          <li class="nav-item"><a href="attorneys.html" class="nav-link">Attorneys</a></li>
+			  <li class="nav-item"><a href="store.html" class="nav-link">Store</a></li>
+	          <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle active" href="departments.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Blog
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li><a class="dropdown-item" href="#">Sub Menu 1</a></li>
+					<li><a class="dropdown-item" href="#">Sub Menu 2</a></li>
+					<li><a class="dropdown-item" href="#">Sub Menu 3</a></li>
+					<li><a class="dropdown-item" href="#">Sub Menu 4</a></li>
+				</ul>
+			</li>
+			
+	          <li class="nav-item"><a href="case.html" class="nav-link">Programs</a></li>
+	          <li class="nav-item"><a href="attorneys.html" class="nav-link">HOJ Media</a></li>
 	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 	        </ul>
@@ -52,8 +66,8 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate pb-5 text-center">
-            <h1 class="mb-3 bread">Practice Areas</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Practice Areas <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 style=color:#ffc107 class="mb-3 bread">HoJ Departments</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Hoj Departments <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>
@@ -266,6 +280,18 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Toggle dropdown menu display on hover
+        var dropdown = document.querySelector('.dropdown');
+        dropdown.addEventListener('mouseenter', function() {
+            dropdown.querySelector('.dropdown-menu').classList.add('show');
+        });
+        dropdown.addEventListener('mouseleave', function() {
+            dropdown.querySelector('.dropdown-menu').classList.remove('show');
+        });
+    });
+</script>
     
   </body>
 </html>
